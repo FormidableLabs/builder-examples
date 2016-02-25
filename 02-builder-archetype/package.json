@@ -1,0 +1,14 @@
+{
+  "name": "02-builder-archetype",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "builder": "^2.8.0"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "01-builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "fail": "false",
+
+    "hello": "echo hello",
+    "many-hellos": "builder concurrent hello hello hello hello",
+
+    "hello-env": "echo Hello ${NAME}",
+    "many-hello-envs": "builder envs hello-env '[{\"NAME\":\"Bob\"},{\"NAME\":\"Bill\"}]'"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "builder": "^2.8.0"
+  }
+}
