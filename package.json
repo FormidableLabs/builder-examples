@@ -1,0 +1,17 @@
+{
+  "name": "builder-examples",
+  "version": "1.0.0",
+  "description": "Builder examples and demos",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FormidableLabs/builder-examples.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FormidableLabs/builder-examples/issues"
+  },
+  "homepage": "https://github.com/FormidableLabs/builder-examples#readme"
+}
